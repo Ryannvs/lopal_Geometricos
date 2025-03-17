@@ -38,7 +38,7 @@ public class Trapezio {
 	public void mostrarDados() {
 		System.out.println("========================");
 		System.out.printf("TRAPÉZIO \n");
-		System.out.println("========================");
+		System.out.printf("======================== \n");
 		System.out.printf("Área: %s\n", calcularArea());
 		System.out.println("========================");
 	}

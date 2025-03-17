@@ -3,7 +3,8 @@ package br.sp.senai.jandira.calculadora.model;
 public class Triangulo {
 
 	private double base;
-	private double altura;
+	private double ladoA;
+	private double ladoB;
 
 	public void setBase(double base) {
 		this.base = base;
@@ -13,25 +14,23 @@ public class Triangulo {
 		return base;
 	}
 
-	public void setAltura(double altura) {
-		this.altura = altura;
+	public void setLadoA(double ladoA) {
+		this.ladoA = ladoA;
 	}
 
-	public double getAltura() {
-		return altura;
+	public double getLadoA() {
+		return ladoA;
 	}
 
-	public double calcularArea() {
-		double area = base * altura / 2;
-		return area;
-	}
+
+				
 	
 	public void mostrarDados() {
-		System.out.println("================");
-		System.out.printf("TRIÂNGULO");
-		System.out.println("================");
+		System.out.println("========================");
+		System.out.printf("TRIÂNGULO \n");
+		System.out.printf("========================= \n");
 		System.out.printf("Área: %s\n");
-		System.out.println("================");
+		System.out.println("========================");
 	}
 
 }

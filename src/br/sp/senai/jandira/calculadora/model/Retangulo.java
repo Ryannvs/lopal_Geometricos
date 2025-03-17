@@ -4,6 +4,7 @@ public class Retangulo {
 
 	private double base;
 	private double altura;
+	private double perimetro;
 
 	public void setBase(double base) {
 
@@ -27,17 +28,26 @@ public class Retangulo {
 		return area;
 	}
 	
+	public void setPerimetro(double perimetro) {
+		this.perimetro = perimetro;
+	}
+	
+	public double getPerimetro() {
+		return perimetro;
+	}
+
 	public double calcularPerimetro() {
 		double perimetro = 2 * (base + altura);
 		return perimetro;
 	}
-	
+
 	public void mostrarDados() {
-		System.out.println("===============");
-		System.out.printf("RETÂNGULO");
-		System.out.println("===============");
-		System.out.printf("Área: %s\n");
-		System.out.println("===============");
+		System.out.println("========================");
+		System.out.printf("RETÂNGULO \n");
+		System.out.printf("======================== \n");
+		System.out.printf("Área: %s\n", calcularArea());
+		System.out.println("========================");
+		System.out.printf("Perímetro: %s\n", calcularPerimetro());
 	}
 
 }

@@ -1,6 +1,9 @@
 package br.sp.senai.jandira.calculadora;
 
+import java.util.Scanner;
+
 import br.sp.senai.jandira.calculadora.model.Circunferencia;
+import br.sp.senai.jandira.calculadora.model.Menu;
 import br.sp.senai.jandira.calculadora.model.Quadrado;
 import br.sp.senai.jandira.calculadora.model.Retangulo;
 import br.sp.senai.jandira.calculadora.model.Trapezio;
@@ -24,12 +27,11 @@ public class CalcularApp {
 
 		Trapezio t2 = new Trapezio();
 		System.out.println(t2);
+		
+		Menu.criarMenu();
 
-		t2.setBaseMaior(9);
-		t2.setBaseMenor(8);
-		t2.setAltura(10);
-
-		t2.mostrarDados();
+		Scanner leitor = new Scanner(System.in);
+		
 
 	}
 

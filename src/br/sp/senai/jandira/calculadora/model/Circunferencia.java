@@ -18,11 +18,11 @@ public class Circunferencia {
 	}
 	
 	public void mostrarDados() {
-		System.out.println("==================");
-		System.out.printf("CIRCUNFERÊNCIA");
-		System.out.println("==================");
-		System.out.printf("Área: %s\n");
-		System.out.println("==================");
+		System.out.println("========================");
+		System.out.printf("CIRCUNFERÊNCIA \n");
+		System.out.printf("======================== \n");
+		System.out.printf("Área: %s\n", calcularArea());
+		System.out.println("========================");
 	}
 
 }
