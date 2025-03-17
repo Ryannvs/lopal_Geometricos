@@ -1,0 +1,7 @@
+package Calculos.copy;
+
+public class Trapezio { 
+	
+	public double areaTrapezio()
+
+}

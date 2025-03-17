@@ -1,0 +1,5 @@
+package br.sp.senai.jandira.calcular.geometrico.model;
+
+public class Triangulo {
+
+}

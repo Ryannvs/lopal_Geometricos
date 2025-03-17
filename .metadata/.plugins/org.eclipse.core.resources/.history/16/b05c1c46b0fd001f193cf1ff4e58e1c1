@@ -1,0 +1,14 @@
+package br.sp.senai.jandira.calcular_geometricos.model;
+
+public class Trapezio { 
+	
+	private double baseMaior;
+	private double baseMenor;
+	private double altura;
+	
+	public void setBaseMaior(double baseMaior) {
+		this.baseMaior = baseMaior;
+	}
+	
+
+}
