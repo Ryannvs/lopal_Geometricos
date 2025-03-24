@@ -21,6 +21,14 @@ public class Triangulo {
 	public double getLadoA() {
 		return ladoA;
 	}
+	
+	public void setLadoB(double ladoB) {
+		this.ladoB = ladoB;
+	}
+	
+	public double getLadoB() {
+		return ladoB;
+	}
 
 
 				

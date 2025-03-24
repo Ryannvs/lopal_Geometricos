@@ -2,29 +2,21 @@ package br.sp.senai.jandira.calculadora.model;
 
 public class Quadrado {
 	
-	private double base;
-	private double altura;
+	private double lado;
 	private double perimetro;
-
-	public void setBase(double base) {
-
-		this.base = base;
+	
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+	
+	public double getLado() {
+		return lado;
 	}
 
-	public double getBase() {
-		return base;
-	}
 
-	public void setAltura(double altura) {
-		this.altura = altura;
-	}
-
-	public double getAltura() {
-		return altura;
-	}
 
 	public double calcularArea() {
-		double area = base * altura;
+		double area = lado * lado;
 		return area;
 	}
 	
@@ -37,7 +29,7 @@ public class Quadrado {
 	}
 	
 	public double calcularPerimetro() {
-		double perimetro = 2 * (base + altura);
+		double perimetro = 4 * lado;
 		return perimetro;
 	}
 	
